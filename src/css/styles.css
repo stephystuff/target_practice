@@ -1,3 +1,45 @@
+html, body {
+  margin: 0; }
 
+header {
+  font-family: sans-serif;
+  margin: 0; }
+  header nav.links {
+    text-align: right;
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.8); }
+    header nav.links li {
+      display: inline;
+      padding: 25px; }
+      header nav.links li span {
+        float: left; }
+    header nav.links a {
+      color: #ffffff; }
+  header nav.main-nav {
+    padding: 10px 5px; }
+    header nav.main-nav li {
+      cursor: pointer;
+      display: inline;
+      padding: 30px;
+      color: #CC0000; }
+    header nav.main-nav a {
+      color: #CC0000;
+      font-weight: bold;
+      font-size: 17px; }
+    header nav.main-nav img {
+      width: 20px;
+      height: 20px;
+      margin-right: -40px; }
+    header nav.main-nav .cart img {
+      width: 25px;
+      height: 25px; }
+    header nav.main-nav form {
+      display: inline; }
+      header nav.main-nav form input {
+        padding: 10px 0;
+        text-align: center;
+        width: 625px;
+        border: 1px solid black;
+        border-radius: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
