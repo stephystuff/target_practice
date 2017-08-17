@@ -1,0 +1,78 @@
+section.feature{
+  border-top: 1px solid rgba(0,0,0,0.3);
+  .feature-jeans{
+    float: left;
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+    display: inline;
+    img{
+      width: 440px;
+      height: 680px;
+    }
+    .jeans-heading{
+      position:absolute;
+      padding: 20px 30px;
+      top: 175px;
+      right: 250px;
+      background-color: #ffffff;
+      text-align: center;
+      h1{
+        font-size: 3em;
+        color: #1d2156;
+        font-weight: bold;
+      }
+      p{
+        font-size: 18px;
+      }
+      strong{
+        color: #CC0000;
+      }
+      span{
+
+        color: #ffffff;
+        background-color: #CC0000;
+        border-radius: 5px;
+        margin-top: 5px;
+        padding: 15px;
+      }
+    }
+  }
+  .feature-deals{
+    margin-left: 2px;
+    float: left;
+    width: 325px;
+    a div{
+      padding: 15px;
+      text-align: center;
+      background-color: #eeeeee;
+      h3{
+        color: #CC0000;
+        font-weight: bold;
+      }
+      p{
+        color: black;
+      }
+      img{
+        margin: 0 auto;
+        display: block;
+      }
+    }
+    .shoes{
+      margin-bottom: 2px;
+      img{
+        width: 125px;
+        height: 125px;
+      }
+    }
+    .furniture{
+      img{
+        width: 150px;
+        height: 150px;
+      }
+      span{
+        color: #000;
+      }
+    }
+  }
+}

@@ -42,4 +42,63 @@ header {
         border: 1px solid black;
         border-radius: 50px; }
 
+section.feature {
+  border-top: 1px solid rgba(0, 0, 0, 0.3); }
+  section.feature .feature-jeans {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+    display: inline; }
+    section.feature .feature-jeans img {
+      width: 440px;
+      height: 680px; }
+    section.feature .feature-jeans .jeans-heading {
+      position: absolute;
+      padding: 20px 30px;
+      top: 175px;
+      right: 250px;
+      background-color: #ffffff;
+      text-align: center; }
+      section.feature .feature-jeans .jeans-heading h1 {
+        font-size: 3em;
+        color: #1d2156;
+        font-weight: bold; }
+      section.feature .feature-jeans .jeans-heading p {
+        font-size: 18px; }
+      section.feature .feature-jeans .jeans-heading strong {
+        color: #CC0000; }
+      section.feature .feature-jeans .jeans-heading span {
+        color: #ffffff;
+        background-color: #CC0000;
+        border-radius: 5px;
+        margin-top: 5px;
+        padding: 15px; }
+  section.feature .feature-deals {
+    margin-left: 2px;
+    float: left;
+    width: 325px; }
+    section.feature .feature-deals a div {
+      padding: 15px;
+      text-align: center;
+      background-color: #eeeeee; }
+      section.feature .feature-deals a div h3 {
+        color: #CC0000;
+        font-weight: bold; }
+      section.feature .feature-deals a div p {
+        color: black; }
+      section.feature .feature-deals a div img {
+        margin: 0 auto;
+        display: block; }
+    section.feature .feature-deals .shoes {
+      margin-bottom: 2px; }
+      section.feature .feature-deals .shoes img {
+        width: 125px;
+        height: 125px; }
+    section.feature .feature-deals .furniture img {
+      width: 150px;
+      height: 150px; }
+    section.feature .feature-deals .furniture span {
+      color: #000; }
+
 /*# sourceMappingURL=styles.css.map */
