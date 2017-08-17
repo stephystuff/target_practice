@@ -1,80 +1,80 @@
 section.feature{
-  border-top: 1px solid rgba(0,0,0,0.3);
+  border-top: $featureTopBorder;
   .feature-jeans{
     float: left;
     position: relative;
     cursor: pointer;
-    padding-left: 35px;
+    padding-left: $featureJeansPaddingLeft;
     display: inline;
     img{
-      width: 440px;
-      height: 680px;
+      width: $featureJeansImgWidth;
+      height: $featureJeansImgHeight;
     }
     .jeans-heading{
       position:absolute;
-      padding: 20px 30px;
-      top: 175px;
-      right: 250px;
-      background-color: #ffffff;
+      padding: $jeansHeadingPadding;
+      top: $jeansHeadingTop;
+      right: $jeansHeadingRight;
+      background-color: $jeansHeadingBgColor;
       text-align: center;
       h1{
-        font-size: 3em;
-        color: #1d2156;
+        font-size: $jeansHeadingFontSize;
+        color: $jeansHeadingFontColor;
         font-weight: bold;
       }
       p{
-        font-size: 18px;
+        font-size: $jeansHeadingParaFontSize;
       }
       strong{
-        color: #CC0000;
+        color: $jeansHeadingParaStrongFontColor;
       }
       span{
-
-        color: #ffffff;
-        background-color: #CC0000;
-        border-radius: 5px;
-        margin-top: 5px;
-        padding: 15px;
+        color: $jeansHeadingButtonFontColor;
+        background-color: $jeansHeadingButtonColor;
+        border-radius: $jeansHeadingButtonBorderRadius;
+        margin-top: $jeansHeadingButtonTopMargin;
+        padding: $jeansHeadingButtonPadding;
       }
     }
   }
   .feature-deals{
-    margin-left: 2px;
+    margin-left: $featureDealsLeftMargin;
     float: left;
-    width: 325px;
+    width: $featureDealsWidth;
     a{
       text-decoration: none;
     }
     a div{
-      padding: 15px;
+      padding: $featureDealsDivPadding;
       text-align: center;
-      background-color: #eeeeee;
+      background-color: $featureDealsDivBgColor;
       h3{
-        color: #CC0000;
+        color: $featureDealsDivHeadingFontColor;
         font-weight: bold;
       }
       p{
         color: black;
       }
       img{
-        margin: 0 auto;
+        margin: $featureDealsDivImgMargin;
         display: block;
       }
     }
     .shoes{
-      margin-bottom: 2px;
+      margin-bottom: $featureDealsDivShoesBottomMargin;
       img{
-        width: 125px;
-        height: 125px;
+        width: $featureDealsDivShoesImgWidth;
+        height: $featureDealsDivShoesImgHeight;
       }
     }
     .furniture{
       img{
-        width: 150px;
-        height: 150px;
+        width: $featureDealsDivFurnitureImgWidth;
+        height: $featureDealsDivFurnitureImgHeight;
       }
       span{
-        color: #000;
+        color: $featureDealsDivFurnitureSpanFontColor;
+;
       }
     }
   }

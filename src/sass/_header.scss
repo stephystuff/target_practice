@@ -1,51 +1,51 @@
 header{
-  font-family: sans-serif;
-  margin: 0;
+  font-family: $headerFontFamily;
+  margin: $headerMargin;
   nav.links{
     text-align: right;
-    padding: 10px 5px;
+    padding: $topNavPadding;
     background-color: rgba(0,0,0,0.8);
     li{
       display: inline;
-      padding: 25px;
+      padding: $topNavListPadding;
       span{
         float: left;
       }
     }
     a{
-      color: #ffffff;
+      color: $topNavAnchorColor;
     }
   }
   nav.main-nav{
-    padding: 10px 5px;
+    padding: $mainNavPadding;
     li{
       cursor: pointer;
       display: inline;
-      padding: 30px;
-      color:#CC0000;
+      padding: $mainNavListPadding;
+      color: $mainNavListColor;
     }
     a{
-      color:#CC0000;
+      color: $mainNavAnchorColor;
       font-weight: bold;
-      font-size: 17px;
+      font-size: $mainNavAnchorFontSize;
     }
     img{
-      width: 20px;
-      height: 20px;
-      margin-right: -40px;
+      width: $mainNavImgWidth;
+      height: $mainNavImgHeight;
+      margin-right: $mainNavImgMarginRight;
     }
     .cart img{
-      width: 25px;
-      height: 25px;
+      width: $mainNavCartImgWidth;
+      height: $mainNavCartImgHeight;
     }
     form{
       display: inline;
       input{
-        padding: 10px 0;
+        padding: $mainNavFormInputPadding;
         text-align: center;
-        width: 625px;
-        border: 1px solid black;
-        border-radius: 50px;
+        width: $mainNavFormInputWidth;
+        border: $mainNavFormInputBorder;
+        border-radius: $mainNavFormInputBorderRadius;
       }
     }
   }

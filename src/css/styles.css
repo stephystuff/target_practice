@@ -14,7 +14,7 @@ header {
       header nav.links li span {
         float: left; }
     header nav.links a {
-      color: #ffffff; }
+      color: #fff; }
   header nav.main-nav {
     padding: 10px 5px; }
     header nav.main-nav li {
@@ -39,7 +39,7 @@ header {
         padding: 10px 0;
         text-align: center;
         width: 625px;
-        border: 1px solid black;
+        border: 1px solid #000;
         border-radius: 50px; }
 
 section.feature {
@@ -58,7 +58,7 @@ section.feature {
       padding: 20px 30px;
       top: 175px;
       right: 250px;
-      background-color: #ffffff;
+      background-color: #fff;
       text-align: center; }
       section.feature .feature-jeans .jeans-heading h1 {
         font-size: 3em;
@@ -69,7 +69,7 @@ section.feature {
       section.feature .feature-jeans .jeans-heading strong {
         color: #CC0000; }
       section.feature .feature-jeans .jeans-heading span {
-        color: #ffffff;
+        color: #fff;
         background-color: #CC0000;
         border-radius: 5px;
         margin-top: 5px;
@@ -83,7 +83,7 @@ section.feature {
     section.feature .feature-deals a div {
       padding: 15px;
       text-align: center;
-      background-color: #eeeeee; }
+      background-color: #eee; }
       section.feature .feature-deals a div h3 {
         color: #CC0000;
         font-weight: bold; }
